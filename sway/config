@@ -4,6 +4,10 @@
 #
 # Read `man 5 sway` for a complete reference.
 
+client.focused #eb4d4b #eb4d4b #eb4d4b #eb4d4b
+
+
+# single tap touchpad
 input "1267:12384:ELAN0501:00_04F3:3060_Touchpad" {
 	tap enabled
 }
@@ -21,7 +25,7 @@ font pango: SourceCodePro Medium 13
 gaps inner 4px
 gaps outer 4px
 
-default_border pixel 4px # disable window titlebar
+default_border pixel 8 # disable window titlebar
 
 
 # Increase brightness
